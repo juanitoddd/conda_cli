@@ -1,0 +1,7 @@
+numpy
+pandas
+matplotlib
+ipykernel
+ipywidgets
+autopep8
+jupytext
