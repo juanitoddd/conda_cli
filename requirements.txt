@@ -5,3 +5,4 @@ ipykernel
 ipywidgets
 autopep8
 jupytext
+seaborn
