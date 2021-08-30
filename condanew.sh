@@ -6,7 +6,7 @@ else
     echo "Creating new Project $1"
     
     # Git Repo Set Up
-    PROJECTS_PATH="/home/juan/dev/projects"
+    PROJECTS_PATH="/home/juan/dev/python_projects"
     cd $PROJECTS_PATH && gh repo create "$1" --private -y    
     PROJECT_PATH="$PROJECTS_PATH/$1"    
     cd $PROJECT_PATH && echo "# $1 Project" > README.md
