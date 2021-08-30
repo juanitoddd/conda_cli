@@ -13,6 +13,7 @@ else
 
     # Conda Env
     conda create --name "$1" -y
+    eval "$(conda shell.bash hook)"   
     conda activate "$1"
     cp "$PROJECTS_PATH/cli/requirements.txt" "$PROJECTS_PATH/$1/"
     conda install -f "$PROJECTS_PATH/utils/requirements.txt"
