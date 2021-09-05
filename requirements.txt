@@ -4,5 +4,6 @@ matplotlib
 ipykernel
 ipywidgets
 autopep8
+jupyter
 jupytext
 seaborn
